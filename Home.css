@@ -1,0 +1,499 @@
+
+body{
+    background-color: #3D087B;
+}
+
+ .clock{
+    position: absolute;
+  
+
+
+/* Layout Properties */
+top: 34px;
+left: 124px;
+width: 204px;
+height: 77px;
+/* UI Properties */
+background: transparent url('img/clock_logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+} 
+
+.sha{
+    position: absolute;
+    top: 50px;
+left: 786px;
+width: 416px;
+height: 130px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+
+opacity: 0.71;
+}
+.he{
+    position: absolute;
+    top: 60px;
+    left: 805px;
+width: 379px;
+height: 130px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.22;
+}
+
+
+.timer{
+    position: relative;
+    top: 30px;
+left: 706px;
+width: 536px;
+height: 130px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+
+
+.timer1{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 458px;
+    height: 90px;
+    opacity: 1;
+    /* background-color: aqua; */
+}
+
+.one{
+position: absolute;
+ top: 25px;
+left: 20px;
+width: 46px;
+height: 26px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal 600 20px/32px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+text-transform: uppercase;
+opacity: 1;
+}
+.second{
+    position: absolute;
+    top: 0px;
+left: 100px; 
+width: 80px;
+height: 90px;
+background-image: url('./timeline.png');
+background: transparent url('img/timeline.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.third{
+    position: absolute;
+    left: 200px;
+}
+.fouth{
+    position: absolute;
+    left: 300px;
+}
+.fifth{
+    position: absolute;
+    left: 400px;
+ 
+}
+.hour{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+    width: 33px;
+height: 43px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-8a11bf);
+text-align: left;
+font: normal normal normal 36px/30px Barlow;
+letter-spacing: 0px;
+color: #8A11BF;
+opacity: 1;
+
+} 
+.mins{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 56px;
+height: 28px;
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-5f0089);
+text-align: left;
+font: normal normal normal 23px/28px Barlow;
+letter-spacing: 0px;
+color: #5F0089;
+opacity: 1;
+}
+.semicolon{
+    position: absolute;
+    top: 38px;
+left: 90px;
+width: 4px;
+height: 22px;
+background: var(--unnamed-color-8a11bf) 0% 0% no-repeat padding-box;
+/* background: #8A11BF 0% 0% no-repeat padding-box; */
+font-weight: 900;
+color: #8A11BF;
+opacity: 1
+}
+.am{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 48px;
+height: 43px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal normal 36px/43px Barlow;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+
+/* third box */
+.grandparent{
+    position: relative;
+    top: 0px;
+left: 124px;
+width: 566px;
+height: 363px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.parent1{
+    position: absolute;
+top: 15px;
+left: 25px;
+width: 517px;
+height: 335px;
+opacity: 1;
+}
+.child{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal normal 18px/28px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+opacity: 1;
+}
+.child2{
+    position: absolute;
+    top: 80px;
+}
+.child3{
+    position: absolute;
+    top: 160px;
+}
+.child4{
+    position: absolute;
+    top: 240px;
+}
+
+select{
+    position: absolute;
+    top: 5px;
+    
+left: 220px;
+width: 281px;
+height: 45px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 4px;
+color: #3D087B;
+
+opacity: 1;
+}
+
+
+.box3{
+    position: absolute;
+    top: 199px;
+left: 706px;
+width: 536px;
+height: 118px;
+text-align: center;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+}
+.text{
+    position: absolute;
+    top: 40px;
+left: 0px;
+
+/* UI Properties */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-30)/40px var(--unnamed-font-family-bauhaus-hv-bt);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-8e53f0);
+text-align: left;
+font: normal normal 900 28px/30px Bauhaus Hv BT;
+letter-spacing: 0px;
+color: #8E53F0;
+text-transform: uppercase;
+opacity: 1;
+
+}
+.box4{
+    position: absolute;
+    top: 517px;
+left: 124px;
+width: 566px;
+height: 77px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+     
+    background:#68379d  0% 0% no-repeat padding-box;
+border: 1px solid #68379d;
+border-radius: 10px;
+
+}
+.text2{
+    position: absolute;
+    top: 9px;
+    left: 30px;
+
+/* width: 381px;
+height: 34px; */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) 27px/34px var(--unnamed-font-family-bauhaus-hv-bt);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal 900 27px/34px Bauhaus Hv BT;
+letter-spacing: 0px;
+color: #f0ecec;
+
+text-transform: uppercase;
+opacity: 1;
+
+
+}
+
+
+
+.box5{
+    position: absolute;
+    top: 345px;
+left: 707px;
+width: 536px;
+height: 341px;
+background: transparent url('img/Component 30 – 1.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box6{
+    content: 'Set Alarm';
+    position: absolute;
+    top: 604px;
+left: 124px;
+width: 299px;
+height: 40px;
+background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+border-radius: 4px;
+cursor: pointer;
+overflow: hidden;
+opacity: 1;
+}
+.bo::after{
+    content: 'set alarm';
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 2.5;
+    transition: all 400ms;
+    #F1A7C5
+    top: 0px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+
+font: normal normal 600 24px/38px Manrope;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.bo::before{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 2.5;
+    transition: all 400ms;
+    top: 0px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+
+font: normal normal 600 24px/38px Manrope;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+
+}
+.bo:hover::after{
+    top: -30px;
+    transition-duration: 0ms;
+}
+.bo::before{
+    content: 'party time';
+    top: 40px;
+    transition-duration: 0ms;
+}
+.bo:hover::before{
+    top: 0px;
+    background: transparent linear-gradient(113deg, #CB52F8  0%, #F1A7C5 40%, #FC5EFF 50%,  #6E54EC 100%) 0% 0% no-repeat padding-box;
+
+    transition-duration: 0ms;
+}
+.line{
+    position: absolute;
+    top: 38px;
+left: 15px;
+width: 0px;
+height: 33px;
+border: 1px solid #C2C2C2;
+opacity: 1;
+}
+.line1{
+    top: 120px;
+}
+.line2{
+    top: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text3{
+    position: absolute;
+    top: 0px;
+left:60px;
+/* width: 111px;
+height: 31px; */
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal 600 24px/38px Manrope;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box7{
+    position: absolute;
+    top: 605px;
+left: 437px;
+width: 253px;
+
+height: 117px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 0.23;
+}
+.b1{
+    position: absolute;
+    top: 5px;
+left: 9px;
+
+font: var(--unnamed-font-style-normal) normal bold 15px/25px var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font: normal normal bold 15px/25px Manrope;
+letter-spacing: 0px;
+color: #F25CFE;
+opacity: 1;
+}
+
+
